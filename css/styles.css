@@ -1,1 +1,66 @@
 /* ini css */
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-article {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.banner-autoslide {
+    height: 250px;
+    width: 100%;
+    background-image: url(https://picsum.photos/200);
+}
+
+.main-logo {
+    height: 75px;
+    width: 75px;
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    border-radius: 50%;
+}
+
+nav {
+    display: flex;
+    align-items: center
+}
+
+.navbar {
+    border: 1px solid black;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.navbar-right {
+    border: 1px solid black;
+    border-radius: 3px 0 0 3px;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.main-article-header {
+    text-align: center;
+}
+
+header, main, hr {
+    margin: 32px;
+}
+
+.our-package-header {
+    text-align: center;
+}
+
+.our-package-content {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
