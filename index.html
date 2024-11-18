@@ -29,25 +29,34 @@
             <!-- konten banner autoslide -->
             <section class="container-banner">
                 <div class="banner-autoslide"></div>
-                
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </section>
 
             <!-- form contact us -->
-            <div id="contact">
-                <section class="form-contact">
-                <h2>Form Contact Us</h2>
-                </section>
-            </div>
+            <section class="contact">
+                    <header class="form-contact">
+                    <h2>Contact Us</h2>
+                    <p>Sales akan menghubungi anda 1x24 jam setelah kami terima.</p>
+                    </header>
+                        <form action="" method="post">
+                            <label for="name">Your Name:</label>
+                            <input type="text" name="name" id="name" placeholder="First and Last Name" required>
+                            <label for="email">Email Address:</label>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+                            <label for="phone">What Are You Interested In:</label>
+                            <select name="interest" id="interest">
+                                <option value="" disabled selected>Select Option</option>
+                            </select>
+                            <button type="submit">SEND</button>
+            </section>
             
-            
-            </article>
+        </article>
         </div>
 
 
         <!-- konten our package -->
         <div id="package">
-            <article>
+            <article class="package-content">
                 <header class="our-package-header">
                     <h1>Our Package</h1>
                 </header>
@@ -59,6 +68,8 @@
         </div>
     </main>
 
+    <hr>
+    
     <footer id="call">
         <span>Made by kuwapica on github</span>
     </footer>
