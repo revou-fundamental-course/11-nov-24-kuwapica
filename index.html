@@ -28,7 +28,9 @@
         <article class="main-article">
             <!-- konten banner autoslide -->
             <section class="container-banner">
-                <div class="banner-autoslide"></div>
+                <div class="banner-autoslide image1"></div>
+                <div class="banner-autoslide image2"></div>
+                <div class="banner-autoslide image3"></div>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
             </section>
 
@@ -38,16 +40,20 @@
                     <h2>Contact Us</h2>
                     <p>Sales akan menghubungi anda 1x24 jam setelah kami terima.</p>
                     </header>
-                        <form action="" method="post">
+                        <form action="">
                             <label for="name">Your Name:</label>
-                            <input type="text" name="name" id="name" placeholder="First and Last Name" required>
+                            <input type="text" name="name" id="name" placeholder="First and Last Name">
                             <label for="email">Email Address:</label>
-                            <input type="email" name="email" id="email" placeholder="example@gmail.com" required>
-                            <label for="phone">What Are You Interested In:</label>
+                            <input type="email" name="email" id="email" placeholder="example@gmail.com">
+                            <label for="interest">What Are You Interested In:</label>
                             <select name="interest" id="interest">
                                 <option value="" disabled selected>Select Option</option>
+                                <option value="star">Star</option>
+                                <option value="moon">Moon</option>
+                                <option value="Japan">Japan</option>
+                                <option value="Korea">Korea</option>
                             </select>
-                            <button type="submit">SEND</button>
+                            <button type="submit" onclick="formValidate()">SEND</button>
             </section>
             
         </article>
